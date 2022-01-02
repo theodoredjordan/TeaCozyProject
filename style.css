@@ -13,6 +13,7 @@ body{
   height: 69px;
   margin-bottom: 15px;
   height: auto;
+  max-width:1200px;
 }
 
 .main img {
@@ -80,7 +81,7 @@ body{
 .locations {
   min-height: 500px;
   height: auto;
-  width: 100%;
+  max-width:1200px;
 
   background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg');
   text-align: center;
@@ -113,4 +114,14 @@ h2 {
 
 div {
   justify-content: center;
+}
+
+.bottom {
+    text-align: center;
+    max-width: 1200px;
+}
+
+#copyright {
+  text-align: left;
+  padding-left: 10px;
 }
